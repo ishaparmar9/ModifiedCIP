@@ -1,0 +1,48 @@
+﻿@{
+    //var user = Context.Session.GetString("CurrentUser");
+    //var userId = Context.Session.GetInt32("UserId");
+    //var userImg = Context.Session.GetString("CurrentUserImage");
+    //var userRole = Context.Session.GetString("Role");
+}
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+<link href="~/css/StyleAdminPages.css" rel="stylesheet" />
+<style>
+    .dropdown-item:hover{
+        background-color: #ffffff;
+        color: #F88634;
+    }
+</style>
+ <div class="admin-navbar d-flex sticky-top align-items-center justify-content-between border-bottom px-2">
+    <div>
+        <span id="live-time"></span>
+    </div>
+    <div>
+        <a class="nav-link btn-group" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><img src="" style="border-radius:100%; height:40px; width:40px;" /> <span class="profile-name text-black"> @*@user*@ admin name </span> <img src="~/images/drop-down.png" /></a>
+        <div class="dropdown-menu dd-menu-left">
+            <div class="ms-3 mb-2 fw-bold profile-name-dd" href="#">
+                @*@user*@ admin name
+            </div>
+            <a asp-controller="Admin" asp-action="UserPage" class="dropdown-item dd-item my-1" style="font-size: 0.8rem;">Admin Panel</a>
+            <div class="dropdown-divider my-0"></div>
+            <a asp-controller="Home" asp-action="Platform" class="dropdown-item my-1" style="font-size: 0.8rem;">Dashboard</a>
+            <div class="dropdown-divider my-0"></div>
+            <a class="dropdown-item my-1" id="logoutBtn" asp-controller="Home" asp-action="LogOutF" style="font-size: 0.8rem;">Log Out</a>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(function () {
+            // Update the live time every second
+            setInterval(function () {
+                var now = new Date();
+                var formattedTime = now.toLocaleString('en-IN', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric', hour: 'numeric', minute: 'numeric', hour12: true });
+                $('#live-time').text(formattedTime);
+            }, 1000);
+        });
+    </script>
+}

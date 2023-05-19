@@ -1,0 +1,14 @@
+F:\dotnet\NewCIPlatform\NewCIPlatform.Entities\bin\Debug\net6.0\NewCIPlatform.Entities.deps.json
+F:\dotnet\NewCIPlatform\NewCIPlatform.Entities\bin\Debug\net6.0\NewCIPlatform.Entities.runtimeconfig.json
+F:\dotnet\NewCIPlatform\NewCIPlatform.Entities\bin\Debug\net6.0\NewCIPlatform.Entities.dll
+F:\dotnet\NewCIPlatform\NewCIPlatform.Entities\bin\Debug\net6.0\NewCIPlatform.Entities.pdb
+F:\dotnet\NewCIPlatform\NewCIPlatform.Entities\obj\Debug\net6.0\NewCIPlatform.Entities.csproj.AssemblyReference.cache
+F:\dotnet\NewCIPlatform\NewCIPlatform.Entities\obj\Debug\net6.0\NewCIPlatform.Entities.GeneratedMSBuildEditorConfig.editorconfig
+F:\dotnet\NewCIPlatform\NewCIPlatform.Entities\obj\Debug\net6.0\NewCIPlatform.Entities.AssemblyInfoInputs.cache
+F:\dotnet\NewCIPlatform\NewCIPlatform.Entities\obj\Debug\net6.0\NewCIPlatform.Entities.AssemblyInfo.cs
+F:\dotnet\NewCIPlatform\NewCIPlatform.Entities\obj\Debug\net6.0\NewCIPlatform.Entities.csproj.CoreCompileInputs.cache
+F:\dotnet\NewCIPlatform\NewCIPlatform.Entities\obj\Debug\net6.0\NewCIPlatform.Entities.dll
+F:\dotnet\NewCIPlatform\NewCIPlatform.Entities\obj\Debug\net6.0\refint\NewCIPlatform.Entities.dll
+F:\dotnet\NewCIPlatform\NewCIPlatform.Entities\obj\Debug\net6.0\NewCIPlatform.Entities.pdb
+F:\dotnet\NewCIPlatform\NewCIPlatform.Entities\obj\Debug\net6.0\NewCIPlatform.Entities.genruntimeconfig.cache
+F:\dotnet\NewCIPlatform\NewCIPlatform.Entities\obj\Debug\net6.0\ref\NewCIPlatform.Entities.dll

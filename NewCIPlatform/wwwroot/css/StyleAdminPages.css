@@ -1,0 +1,100 @@
+﻿
+/*-----------------------SideBar-------------------------*/
+
+.admin-navbar {
+    background-color: #ffffff;
+    font-size: 0.8rem;
+}
+
+#sidebar {
+    background-color: #F88634;
+    color: #ffffff;
+    height: 100vh;
+    position: sticky;
+    top: 0px;
+    font-size: 0.8rem;
+}
+
+.sidebar-navlink {
+    padding: 7px 0px;
+    border-radius: 5px;
+    margin: 12px 0px;
+    background-color: #F88634;
+    color: #ffffff;
+    cursor: pointer;
+    border: none!important;
+    width: 100%!important;
+    text-align: left!important;
+}
+
+.sidebar-navlink:hover:not(.active-page) {
+    background-color: #f6a164;
+    color: #000000;
+    font-weight: bold;
+    box-shadow: 3px 5px 10px #10446B29;
+}
+
+.active-page {
+    background-color: #ffffff;
+    color: #F88634;
+    box-shadow: 3px 5px 10px #10446B29;
+    font-weight: bold;
+}
+.active-page:hover{
+    color: #2070db;
+}
+h1 {
+    display: inline-block;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+
+div.dataTables_wrapper div.dataTables_filter {
+    display: none;
+   /*float: left;
+   margin-bottom: 10px;*/
+}
+div.dataTables_wrapper div.dataTables_filter label input{
+    outline: none;
+}
+
+/* Hide the sorting buttons */
+.dataTables_wrapper .dataTables_wrapper > div > div > div.dataTables_scrollHead table th span {
+    display: none;
+}
+.dataTables_wrapper .dataTables_wrapper > div > div > div.dataTables_scrollHead table th{
+    background-color: aqua!important;
+}
+/* Disable the sorting buttons */
+.dataTables_wrapper .dataTables_wrapper > div > div > div.dataTables_scrollHead table th.sorting,
+.dataTables_wrapper .dataTables_wrapper > div > div > div.dataTables_scrollHead table th.sorting_asc,
+.dataTables_wrapper .dataTables_wrapper > div > div > div.dataTables_scrollHead table th.sorting_desc {
+    pointer-events: none;
+    cursor: default;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    border: 1px solid #d9d9d9 !important;
+    color: #d9d9d9!important;
+    margin-left: 5px !important;
+    padding: 3px 7px!important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    border-color: #F88634 !important;
+    color: #F88634 !important;
+    background-color: #ffffff!important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    background-color: #F88634 !important;
+    border-color: #F88634 !important;
+    color: #ffffff !important;
+}
+
+button.apply-btn{
+    z-index: 100!important;
+}
+
+
+#myTable_wrapper{
+    overflow-x: auto !important;
+}
